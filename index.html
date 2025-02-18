@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/welcome.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <nav class="navigation">
+        <a href="#">
+            <img src="./assets/welcome.png" alt="Welcome img">
+        </a>
+        <i class="fa-solid fa-bars navigation-menu"></i>
+        <ul class="navigation-items">
+            <li><a href="#work">Work</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section class="about">
+        <div class="about-content">
+            <div class="about-left">
+                <img class="about-img" src="./assets/person.png" alt="Person">
+                <p class="about-name">
+                    <b>Davlatjon.M</b>
+                    Frond & Backend developer
+                </p>
+            </div>
+            <span class="about-bio">
+                <b>Bio:</b><br>
+                15 yoshimdan boshlab veb ilovalarni yaratish bilan shug‘ullanmoqdaman <i>Now(17)</i>. Bir nechta
+                mustaqil
+                loyiha ishlanmalarim bor. Toza va tushunarli uslubni yoqtiraman
+            </span>
+        </div>
+        <div class="techniques">
+            <div class="techniques-slider">
+                <img src="assets/html.png" alt="">
+                <img src="assets/css.png" alt="">
+                <img src="assets/js.png" alt="">
+                <img src="assets/react.png" alt="">
+                <img src="assets/node.png" alt="">
+                <img src="assets/express.png" alt="">
+                <img src="assets/mongodb.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section id="work" class="work">
+        <h3 class="work-title">Mening eng oxirgi ishlarim</h3>
+        <div class="work-filter">
+            <div class="work-filter__item">
+                <span>Texnalogiyani tanlang:</span>
+                <select class="work-filter__select">
+                    <option value="all">Hammasi</option>
+                    <option value="React">React</option>
+                    <option value="Javascript">Javascript</option>
+                    <option value="Nodejs">Nodejs</option>
+                    <option value="Tailwindcss">Tailwindcss</option>
+                    <option value="Mongodb">Mongodb</option>
+                    <option value="Express">Express</option>
+                </select>
+            </div>
+        </div>
+        <div class="work-items">
+            <!-- <div class="work-item">
+                <a href="https://github.com/the-ict/Halqil-frontend">
+                    <img src="./assets/p1.png" alt="Portfolio">
+                </a>
+                <h4>Halqil Frontend</h4>
+            </div> -->
+        </div>
+    </section>
+    <section id="contact" class="contact">
+        <div class="contact-left">
+            <h3>Birga ishlash uchun</h3>
+            <p>Bu sahifa mening portfolio saytimning bir qismi bo‘lib, foydalanuvchilarga menda mavjud loyihalar va
+                tajribam bilan tanishish imkonini beradi. 🚀</p>
+            <div class="c-left-social">
+                <img src="./assets/instagram.png" class="social-icon" alt="Instagram">
+                <i class="fa-brands fa-telegram social-icon"></i>
+            </div>
+        </div>
+        <div class="contact-right">
+            <input type="text" placeholder="Name">
+            <input type="text" placeholder="Email">
+            <textarea placeholder="Type your message here"></textarea>
+            <button>Yuborish</button>
+        </div>
+        </div>
+    </section>
+    <script src="./main.js"></script>
+</body>
+
+</html>
