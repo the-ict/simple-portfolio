@@ -6,16 +6,36 @@ const workChange = document.querySelector(".work-filter__select")
 
 
 const projects = {
-    "Halqil-backend": {
+    "Halqil-node": {
         "tech": ["Jwt", "Express", "Nodejs"],
         "link": "https://github.com/the-ict/Halqil-backend",
         "img": "./assets/p1.png"
     },
-    "Halqil-frontend": {
+    "Halqil-react": {
         "tech": ["React", "Tailwindcss"],
         "link": "https://github.com/the-ict/Halqil-frontend",
         "img": "./assets/p2.png"
     },
+    "Kitob do'koni react": {
+        "tech": ["React", "css"],
+        "link": "https://github.com/the-ict/bookshop-react.git",
+        "img": "./assets/p3.png"
+    },
+    "Kitob do'koni node": {
+        "tech": ["Nodejs", "Express", "Bcrypt"],
+        "link": "https://github.com/the-ict/bookshop-node.git",
+        "img": "./assets/p3.png"
+    },
+    "Blog react": {
+        "tech": ["React", "css"],
+        "link": "https://github.com/the-ict/blog-app-ui.git",
+        "img": "./assets/p4.png"
+    },
+    "Blog node": {
+        "tech": ["Nodejs", "Express"],
+        "link": "https://github.com/the-ict/blog-api.git",
+        "img": "./assets/p4.png"
+    }
 };
 
 
@@ -47,7 +67,7 @@ function displayProjects(filterTech) {
 displayProjects('all');
 
 workChange.addEventListener("change", (event) => {
-    const selectedTech = event.target.value; 
+    const selectedTech = event.target.value;
     displayProjects(selectedTech);
 });
 
