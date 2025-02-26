@@ -73,11 +73,11 @@ workChange.addEventListener("change", (event) => {
 
 
 navigationMenuIcon.addEventListener("click", (event) => {
-    navigationMenu.classList.toggle("active")
+    navigationMenu.classList.add("active")
 })
 
 navigationMenu.addEventListener("click", (event) => {
-    navigationMenu.classList.toggle("active")
+    navigationMenu.classList.remove("active")
 })
 
 window.addEventListener("scroll", () => {
