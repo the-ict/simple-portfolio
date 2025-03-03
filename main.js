@@ -1,8 +1,8 @@
 const navigationMenuIcon = document.querySelector(".navigation-menu")
 const navigationMenu = document.querySelector(".navigation-items")
+const workChange = document.querySelector(".work-filter__select")
 const navigationBar = document.querySelector(".navigation")
 const workContainer = document.querySelector(".work-items")
-const workChange = document.querySelector(".work-filter__select")
 
 
 const projects = {
